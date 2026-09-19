@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import "../css/fonts.css";
+@import url("../css/fonts.css");
 .animated {
     -webkit-animation-duration: 0.5s;
     animation-duration: 0.5s;
@@ -13,15 +13,15 @@
 }
 
 .bold {
-    font-family: "pfdin_pro_bold", serif
+    font-family: "pfdin_pro_bold", sans-serif
 }
 
 .semibold {
-    font-family: "pfdin_pro_bold", serif
+    font-family: "pfdin_pro_bold", sans-serif
 }
 
 .normal {
-    font-family: "pfdin_pro_bold", serif
+    font-family: "pfdin_pro_bold", sans-serif
 }
 
 .light {
@@ -188,7 +188,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: "pfdin_pro_bold", serif;
+    font-family: "pfdin_pro_bold", sans-serif;
     line-height: 1.25em
 }
 
@@ -352,7 +352,7 @@ sup {
 }
 
 .headingfont {
-    font-family: "pfdin_pro_bold", serif
+    font-family: "pfdin_pro_bold", sans-serif
 }
 
 .att-regular {
@@ -1019,7 +1019,8 @@ footer .dealer-info .se-habla-top {
 
 header #dealer-menu,
 footer #dealer-menu {
-    float: right
+    float: right;
+    width: 420px;
 }
 
 @media screen and (max-width:1365px) {
@@ -2323,7 +2324,7 @@ footer #primary-nav-holder .menu-home-menu-container ul li a:hover {
 .featured-phones .features-offers .feature-offer .feature-offer-container .feature-offer-name,
 .directv-features-offers .phones .feature-offer .feature-offer-container .feature-offer-name,
 .directv-features-offers .features-offers .feature-offer .feature-offer-container .feature-offer-name {
-    font-family: "pfdin_pro_bold", serif;
+    font-family: "pfdin_pro_bold", sans-serif;
     color: #016DFF;
     padding: 0 5%;
     text-align: left;
@@ -2638,7 +2639,7 @@ footer #primary-nav-holder .menu-home-menu-container ul li a:hover {
     margin: 0;
     font-size: 33px;
     line-height: 38px;
-    font-family: "pfdin_pro_reg", serif
+    font-family: "pfdin_pro_reg", sans-serif
 }
 
 .image-and-content .callout-content .button {
@@ -3051,7 +3052,7 @@ footer #primary-nav-holder .menu-home-menu-container ul li a:hover {
     line-height: 60px;
     color: white;
     margin-bottom: 1em;
-    font-family: "pfdin_pro_reg", serif
+    font-family: "pfdin_pro_reg", sans-serif
 }
 
 @media screen and (max-width:1280px) {
@@ -3272,7 +3273,7 @@ footer #primary-nav-holder .menu-home-menu-container ul li a:hover {
 #blue-bg h1 {
     color: #fff;
     font-size: 45px;
-    font-family: "pfdin_pro_reg", serif;
+    font-family: "pfdin_pro_reg", sans-serif;
     font-weight: 300;
     text-transform: none
 }
@@ -3825,7 +3826,7 @@ footer #primary-nav-holder .menu-home-menu-container ul li a:hover {
     width: auto;
     max-width: 49%;
     display: inline-block;
-    font-family: "pfdin_pro_bold", serif;
+    font-family: "pfdin_pro_bold", sans-serif;
     font-size: 43px;
     font-weight: 700;
     float: left;
@@ -4260,7 +4261,7 @@ footer #primary-nav-holder .menu-home-menu-container ul li a:hover {
 }
 
 .map-block .dealer-location-info .store-hours h2 {
-    font-family: "pfdin_pro_bold", serif
+    font-family: "pfdin_pro_bold", sans-serif
 }
 
 .bolt-ons-container {
@@ -4630,7 +4631,7 @@ footer #primary-nav-holder .menu-home-menu-container ul li a:hover {
 
 .hero-block .hero-content h1 strong {
     color: #fdd746;
-    font-family: "pfdin_pro_bold", serif
+    font-family: "pfdin_pro_bold", sans-serif
 }
 
 .hero-block .hero-content .masthead-glyph {
@@ -4676,7 +4677,7 @@ footer #primary-nav-holder .menu-home-menu-container ul li a:hover {
 
 .hero-block .hero-content p strong {
     color: #fdd746;
-    font-family: "pfdin_pro_bold", serif
+    font-family: "pfdin_pro_bold", sans-serif
 }
 
 .hero-block .hero-content ul {
@@ -5325,7 +5326,7 @@ footer #primary-nav-holder .menu-home-menu-container ul li a:hover {
 
 #services-tabs #directv-stream-sizzle-video h2 {
     margin-top: 0;
-    font-family: "pfdin_pro_reg", serif;
+    font-family: "pfdin_pro_reg", sans-serif;
     font-size: 60px;
     color: #016DFF;
     text-transform: none
